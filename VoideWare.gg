@@ -1,4 +1,17 @@
 ----------------------script start-------------------------------
+-- Key System --
+local correctKey = "Gay"
+local Key = getgenv().Key or ""
+
+if Key ~= correctKey then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Key System",
+        Text = "Invalid Key. Please provide the correct key.",
+        Duration = 5
+    })
+    return
+end
+
 
 --some functions--
 
