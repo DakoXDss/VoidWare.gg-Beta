@@ -1,7 +1,7 @@
 ----------------------script start-------------------------------
 -- Key System --
 local correctKey = "Gay"
-local Key = getgenv().Key or ""
+local Key = getgenv().Key or "Gay"
 
 if Key ~= correctKey then
     game:GetService("StarterGui"):SetCore("SendNotification", {
