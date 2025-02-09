@@ -88,8 +88,8 @@ function Notify(tt, tx)
         Notify("VoidWare.GG", "Loading. Using " .. exec .. " (Full supported)")
     end
 
-    if not isfile("VoidCross.png") then
-        writefile("VoidCross.png", game:HttpGet("https://drive.usercontent.google.com/u/0/uc?id=1WsCcDpit2AnvVpC2LoejiTZjRI7ODpT1&export=download"));
+    if not isfile("VoidCrosss.png") then
+        writefile("VoidCrosss.png", game:HttpGet("https://drive.usercontent.google.com/u/0/uc?id=1WsCcDpit2AnvVpC2LoejiTZjRI7ODpT1&export=download"));
     end
     
     if game.Players.LocalPlayer.Character == nil or not game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") then
@@ -286,7 +286,7 @@ crosscolor = Color3.fromRGB(255, 255, 255)
 crosssizeog = UDim2.new(0.017, 0, 0.03, 0)
 crosssizek = 2
 crossrot = 0
-crossimg = getcustomasset("VoidCross.png")
+crossimg = getcustomasset("VoidCrosss.png")
 
 crossgui = Instance.new("ScreenGui", localplayer.PlayerGui)
 crossgui.ClipToDeviceSafeArea = false
